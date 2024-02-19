@@ -1,0 +1,75 @@
+body{
+    font-family: 'Happy Monkey', system-ui;
+    text-align: center;
+    background: linear-gradient(#e2c0b6, #a9def9);
+    color: white;
+}
+#bff{
+    border-radius: 50%;
+    width: 150px;
+    border: 6px solid #00cecb;
+}
+
+h1{
+    text-shadow: 1px 1px 2px black;
+}
+
+#bdate{
+    text-shadow: 1px 1px 2px black;
+    background-color: #00cecb;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+#bday-age{
+    text-shadow: 1px 1px 2px black;
+    background-color: #00cecb;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-img{
+    width: 400px;
+    height: 400px;
+    border: 6px solid #00cecb;
+    border-radius: 4px;
+    background: url('images/coco-tafoya-_Q0dP8xiUGA-unsplash.jpg');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.gift-hint{
+    margin-top: 0px;
+}
+#gift-img1:hover{
+    background: url("images/giphy\ \(2\).gif");
+    background-size: cover;
+}
+#gift-img2:hover{
+    background: url("images/hot.gif");
+    background-size: cover;
+}
+#gift-img3:hover{
+    background: url("images/genious.gif");
+    background-size: cover;
+}
+#gift-img4:hover{
+    background: url("images/badass.gif");
+    background-size: cover;
+}
+footer a{
+    color: whitesmoke;
+}
+footer{
+    text-shadow: 2px 2px 4pc  #000;
+    width: 400px;
+    margin: 40px auto 20px;
+    font-style: italic;
+}
